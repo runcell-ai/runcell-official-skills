@@ -1,5 +1,7 @@
 # RunCell official skills
 
+Source maintenance moved to [runcell-ai/skills](https://github.com/runcell-ai/skills) on 2026-10-29. Make future public Skill and release-tool changes there. This repository retains previous source snapshots and immutable artifacts for compatibility; its existing download origin remains unchanged. See the [migration record](https://github.com/runcell-ai/skills/blob/main/docs/migration-2026-10-29.md). The instructions below describe the retained publication layout.
+
 Portable skills maintained by RunCell. Source packages are under `skills/`; host metadata remains separate under `adapters/`.
 
 `catalog/runtime-skills.json` lists packages for automatic delivery by compatible RunCell clients. The previously published RunCell 0.2.9 client does not yet implement automatic delivery. The separate `catalog/runcell-official-skills.json` retains its existing content-metadata format.
